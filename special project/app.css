@@ -1,7 +1,7 @@
 body {
     overflow: hidden;
     font-family: "Roboto", serif;
-    background: linear-gradient(135deg, black, #220033);
+    background: linear-gradient(135deg, #350000, #040146);
   }
   
   .carousel {
@@ -65,10 +65,11 @@ body {
     position: absolute;
     z-index: 1;
     color: #fff;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
+    right: 20px;
     transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
-    font-size: clamp(10px, 3vw, 20px);
+    font-size: clamp(15px, 3vw, 20px);
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   }
   .carousel-item .num {
